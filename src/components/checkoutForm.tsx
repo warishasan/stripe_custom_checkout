@@ -43,7 +43,9 @@ export default function CheckoutForm() {
         card: elements.getElement(CardElement),
         billing_details: {
           name: 'Jenny Rosen',
+          email: "wariss@gmail.com",          
         },
+        metadata: {yolo:"polo"}
       }
     
     })
